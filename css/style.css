@@ -77,6 +77,13 @@ hr{
     margin-left: 0.5rem;
     font-size: 0.9rem;
   }
+  
+  /* Principal section responsive */
+  .principal-section img {
+    height: auto !important;
+    max-height: 300px !important;
+    margin-bottom: 1rem;
+  }
 }
 
 @media (max-width: 576px) {
@@ -87,5 +94,14 @@ hr{
   li {
     margin-left: 0.3rem;
     font-size: 0.9rem;
+  }
+  
+  /* Principal section for mobile */
+  .principal-section img {
+    max-height: 250px !important;
+  }
+  
+  .principal-section p {
+    font-size: 0.9rem !important;
   }
 }
